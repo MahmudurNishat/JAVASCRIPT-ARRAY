@@ -4,9 +4,9 @@
 Enabels storing a collection of multiple items in a single variable name.
 
 Example :
-let numbers = [12,13,14,16,118] // its a example of array // numbers
-let names = ['abul', "kabul","ravul"] // string array
-let passed = [true , false , true] // boolean array
+let numbers = [12,13,14,16,118] // its a example of array // numbers <br>
+let names = ['abul', "kabul","ravul"] // string array <br>
+let passed = [true , false , true] // boolean array<br>
 
 🔗why array important ?
 
@@ -14,45 +14,45 @@ if we dont use array for multiple items we need to use variable every time as we
 
 🔗how to measure numbers of items in a array ?
 
-let numbers = [ 1,2,3,4,5,6]
-console.log(numbers.length) // output : 6
-that means use variable name then dot and use length .
+let numbers = [ 1,2,3,4,5,6] <br>
+console.log(numbers.length) // output : 6 <br>
+that means use variable name then dot and use length . <br>
 
-🔗index : intro ------------------------------------------------------------
+🔗index :
 
-let numbers = [ 1,2,3,4,5]
-usually all the programing language use index that means serial number is starting from o that means oindex means 1 ,
-1index means 2 ,
-3index 4 ,
-but again if u asked number2items is index 1
+let numbers = [ 1,2,3,4,5] <br>
+usually all the programing language use index that means serial number is starting from o that means oindex means 1 , <br>
+1index means 2 , <br>
+3index 4 , <br>
+but again if u asked number2items is index 1 <br>
 
 🔗Example how to use :
 
-let numbers = [88,89,52,75,74,65]
-console.log(numbers[3]) // output 3index means : 75.
+let numbers = [88,89,52,75,74,65] <br>
+console.log(numbers[3]) // output 3index means : 75. <br>
 if u want to use the index number use varible name and then third bracket and index number .
 
 🔗use index in a varaible :
 
-let numbers = [15,25,26,24,23,2334,45]
-let fourth = numbers[4]
+let numbers = [15,25,26,24,23,2334,45] <br>
+let fourth = numbers[4] <br>
 console.log (fourth) // output :23
 
 🔗can set or update index value :
-let name = [amin , rahim,karim ,sabir ]
-name[2] = 25;
-console.log(name[2])//output : 25
-console.log (name) // output : [amin , rahim , 25 ,sabir] // understand
+let name = [amin , rahim,karim ,sabir ] <br>
+name[2] = 25; <br>
+console.log(name[2])//output : 25 <br>
+console.log (name) // output : [amin , rahim , 25 ,sabir] // understand <br>
 
 🔗Push
 It means it will add a element in last .
 
 Example :
 
-let numbers = [22.25.92.100,455]
-numbers.push(78) //
-numbers.push (85,89)
-console.log(numbers)//output : [22.25.92.100,455,78,85,89] // you can add any element or multiple element
+let numbers = [22.25.92.100,455] <br>
+numbers.push(78) // <br>
+numbers.push (85,89) <br>
+console.log(numbers)//output : [22.25.92.100,455,78,85,89] // you can add any element or multiple element <br>
 
 you can not use push pop shift unshift in the console.
 
@@ -61,109 +61,109 @@ It means you can remove element from last .
 
 Example :
 
-let numbers = [22,95,87,75,61]
-numbers.pop() // u can not write anything in pop
-console.log (numbers) // output : [22,95,87,75]
+let numbers = [22,95,87,75,61] <br>
+numbers.pop() // u can not write anything in pop <br>
+console.log (numbers) // output : [22,95,87,75] <br>
 
 🔗Shift
-It's a cousing of pop // just it remove element from first
+It's a cousing of pop // just it remove element from first <br>
 
-Example :
+Example : <br>
 
-let name = [1.2.3,4,5]
-name.shift() // u can not write anything in pop or shift
-console.log(name) // output : [2,3,4,5]
+let name = [1.2.3,4,5] <br>
+name.shift() // u can not write anything in pop or shift <br>
+console.log(name) // output : [2,3,4,5] <br>
 
 🔗Unshift :
-Its a cousin of push but it add element from first .
+Its a cousin of push but it add element from first . <br>
 
-Example:
-let name = [1,2,3,4,5,6]
-name.unshift(0)
-console.log(name ) // [0,1,2,3,4,5,6]
+Example: <br>
+let name = [1,2,3,4,5,6] <br>
+name.unshift(0) <br>
+console.log(name ) // [0,1,2,3,4,5,6] <br>
 
 🔗Includes :
 It detect whether you document is locate on your array . is element is in your arrary then it gives true othewise false.
 
-Example :
-let numbers = [1,2,3,54,5,6]
-consol.log(numbers.includes(6)) // output // true
+Example :<br>
+let numbers = [1,2,3,54,5,6] <br>
+consol.log(numbers.includes(6)) // output // true <br>
 
-let numbers = [1,2,3,54,5,6,7]
-consol.log(numbers.includes(8)) // output // false
+let numbers = [1,2,3,54,5,6,7]<br>
+consol.log(numbers.includes(8)) // output // false <br>
 
 🔗why includes important ?
+<br>
+cause u can use it in the if else condition like <br>
 
-cause u can use it in the if else condition like
+Example :<br>
 
-Example :
+let numbers = [1.2.35,25,45,75] <br>
 
-let numbers = [1.2.35,25,45,75]
-
-if(numbers.includes(75)){
-console.log("party") /// output true that means party
-}
-else {
-console.log("goman")
-}
+if(numbers.includes(75)){ <br>
+console.log("party") /// output true that means party<br>
+}<br>
+else {<br>
+console.log("goman")<br>
+}<br>
 
 🔗Index of :
 if u want to know about the index number u can use index of like
 
-Example:
+Example:<br>
 
-let name = ['a','b','c']
-console.log(name.indexof("c")) // output : 2 /// that means the index number is two
-console.log (name.indexof(""d)) // output : -1 /// that means it did not exis on the array cause array number start from 0 to infinity
+let name = ['a','b','c']<br>
+console.log(name.indexof("c")) // output : 2 /// that means the index number is two<br>
+console.log (name.indexof(""d)) // output : -1 /// that means it did not exis on the array cause array number start from 0 to infinity<br>
 
 🔗IsArray :
-its detect whether a variable is a array if its array then its return true otherwise false .
+its detect whether a variable is a array if its array then its return true otherwise false .<br>
 
-Example:
+Example:<br>
 
-let numbers = [1,2,3,4,5,6,7,8,9,10]
-let age = 21 ;
-let sub = [1,2,3,4]
+let numbers = [1,2,3,4,5,6,7,8,9,10] <br>
+let age = 21 ;<br>
+let sub = [1,2,3,4]<br>
 
-console.log(Array.isArray(age)) // output : false
+console.log(Array.isArray(age)) // output : false <br>
 
-console.log(Array.isArray(sub)) // output : true // cause its an array
+console.log(Array.isArray(sub)) // output : true // cause its an array <br>
 
-console.log(Array.isArray(numbers)) // output : true // cause its an array
+console.log(Array.isArray(numbers)) // output : true // cause its an array <br>
 
 🔗Join
-if u want to remove third bracket and full row u can use join()
+if u want to remove third bracket and full row u can use join()<br>
 
-Example :
+Example : <br>
 
-let numbers =[1,2,3,4,5]
+let numbers =[1,2,3,4,5]<br>
 
-console.log(numbers.join()) // output // 1,2,3,4,5 // by default comma
-console.log(numbers.join("|")); output // 1|2|3|4|5|6 // by default comma or u can use any symbol using ""
+console.log(numbers.join()) // output // 1,2,3,4,5 // by default comma <br>
+console.log(numbers.join("|")); output // 1|2|3|4|5|6 // by default comma or u can use any symbol using "" <br>
 
 🔗concat
 if u want to use two array in one array u can use it
 
 Example:
 
-let data1 = [1, 2, 3, 4, 5, 6];
-let data2 = [7, 8, 98, 20];
+let data1 = [1, 2, 3, 4, 5, 6]; <br>
+let data2 = [7, 8, 98, 20]; <br>
 
-console.log(data1.concat(data2)); // output : [1,2,3,4,5,6,7,8,98,20]
-// if u want to add two array in ane array use concat //
+console.log(data1.concat(data2)); // output : [1,2,3,4,5,6,7,8,98,20] <br>
+// if u want to add two array in ane array use concat // <br>
 
 🔗slice
-if u want to need specific multple element in one row you can use it
+if u want to need specific multple element in one row you can use it<br>
 
 Example:
 
-let numbers = [1,2,3,4,5,6]
-console.log(numbers.slice(2,4)) // output : 3,4
+let numbers = [1,2,3,4,5,6] <br>
+console.log(numbers.slice(2,4)) // output : 3,4 <br>
 
 🔗Spilce
-check it yourself :
+check it yourself :<br>
 
-Task :
+Task :<br>
 
 1. Declare an array
    Declare an array with 5 elements containing fruits
